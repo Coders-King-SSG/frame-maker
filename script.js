@@ -32,7 +32,7 @@ function gotPoses(results) {
     if (results.length > 0) {
         console.log(results);
         beard_x = results[0].pose.nose.x - 35;
-        beard_y = results[0].pose.nose.y +22.5;
+        beard_y = results[0].pose.nose.y +10;
     }
 }
 
